@@ -1,0 +1,197 @@
+/* Fonts Import */
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: url("../fonts/ProximaNova-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova SemiBold";
+    src: url("../fonts/ProximaNova-Semibold.ttf");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova Bold";
+    src: url("../fonts/ProximaNova-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+/* color */
+
+:root {
+    --primary:#101B21 ;
+    --seconday: #5fbe00;
+    --ternary: #5C5C5C;
+    --pure:#ffff;
+    --black:#000000;
+    --line:#A9A9A9;
+    --text:#808080;
+  }
+.free{
+    margin-top: 120px;
+    margin-left: 130px;
+}
+
+.free h1{
+    font-family:Proxima Nova Bold ;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+   letter-spacing: 0.02em;
+   color: var(--primary);
+}
+.free p{
+    padding-top: 20px;
+    font-weight: normal;
+    font-family: Proxima Nova Regular;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 16px;
+    color: var(--black);
+}
+.container{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    grid-gap:85px;
+}
+
+.imgfield{
+    width: 590px;
+height: 602px;
+}
+
+
+.form h3{
+    font-weight: bold;
+    font-family: Proxima Nova SemiBold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.05em;
+color: var(--primary);
+}
+
+.form h3:hover{
+       color: var(--seconday);
+       font-weight: bold;
+   
+}
+#line1{
+    width: 400px;
+     margin-top: 10px;
+     border: 1px solid #C4C4C4;
+}
+
+.paragragh{
+   padding-top: 30px;
+   font-weight: 600;
+font-size: 16px;
+font-family: Proxima Nova Regular;
+line-height: 19px;
+letter-spacing: 0.05em;
+color: var(--black);
+
+}
+
+
+.intname{
+    width: 400px;
+height: 40px;
+margin-top: 10px;
+font-family: Proxima Nova Regular;
+padding-left: 17px;
+background: rgba(235, 235, 235, 0.8);
+border: 0.5px solid var(--line);
+box-sizing: border-box;
+outline: none;
+border-radius: 2px;
+
+}
+
+
+#exp{
+    width: 400px;
+    height: 260px;
+    margin-top: 10px;
+    font-family: Proxima Nova Regular;
+padding-left: 17px;
+padding-top: 15px;
+background: rgba(235, 235, 235, 0.8);
+border: 0.5px solid var(--line);
+box-sizing: border-box;
+outline: none;
+border-radius: 2px;
+}
+
+.type{
+    display: flex;
+    justify-content: space-between;
+}
+.select{
+    padding: 8px 12px;
+    width: 190px;
+    margin-top: 10px;
+    background: rgba(235, 235, 235, 0.8);
+border: 0.5px solid var(--line);
+box-sizing: border-box;
+outline: none;
+border-radius: 2px;
+}
+
+#category{
+    font-family:Proxima Nova Regular ;
+}
+
+.mybtn{
+    margin-top: 30px;
+    justify-content: space-between;
+}
+button{
+    width: 200px;
+height: 40px;
+background: rgba(235, 235, 235, 0.8);
+border: 0.5px solid var(--line);
+box-sizing: border-box;
+outline: none;
+border-radius: 2px;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.05em;
+color: var(--primary);
+}
+
+button:hover{
+    background-color: var(--seconday);
+    color: var(--pure);
+    font-weight: bold;
+}
+
+#upload{
+    font-family:Proxima Nova Regular ;
+}
+
+#cancel{
+    font-family:Proxima Nova Regular ;
+}
+
+p{
+    padding-top: 40px;
+    font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+font-family:Proxima Nova Regular ;
+letter-spacing: 0.05em;
+color: var(--primary);
+}
+span{
+    color: var(--seconday);
+}
+p a {
+    text-decoration: none;
+}
